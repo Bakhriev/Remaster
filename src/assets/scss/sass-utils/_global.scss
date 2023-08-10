@@ -1,0 +1,65 @@
+// Body
+body {
+	font-family: serif;
+	font-weight: 400;
+	font-size: 16px;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	background-color: #f8fbff;
+}
+
+// Wrapper
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+
+	overflow: hidden;
+}
+
+.main {
+	flex-grow: 1;
+}
+
+// Container
+.container {
+	margin: 0 auto;
+
+	max-width: 1270px;
+	padding: 0 15px;
+}
+
+.btn {
+	padding: 30px;
+
+	border-radius: 30px;
+
+	font-family: Greenwich;
+	font-size: 19px;
+	font-weight: 400;
+	line-height: 0;
+
+	@media screen and (max-width: $large) {
+		padding: 25px 20px;
+		font-size: 16px;
+	}
+}
+.btn--blue {
+	background-color: $blue;
+	color: $light;
+}
+
+.btn--brown {
+	background-color: $brown;
+	color: $text;
+}
+
+.vegan-text {
+	font-weight: 100;
+}
+
+.title {
+	color: $blue;
+	font-family: Greenwich;
+	font-weight: 400;
+	line-height: 137%;
+}
