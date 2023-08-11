@@ -1,23 +1,7 @@
 .advantage {
-	position: relative;
 	padding-top: 80px;
 	padding-bottom: 200px;
-
-	&::before {
-		content: '';
-		position: absolute;
-		z-index: -1;
-		inset: 0;
-		background: url('../img/advantage/topLine.svg') no-repeat center/cover;
-	}
-
-	&::after {
-		content: '';
-		position: absolute;
-		z-index: -1;
-		inset: -60px;
-		background: url('../img/advantage/bottomLine.svg') no-repeat center/cover;
-	}
+	position: relative;
 
 	@media screen and (max-width: $tablet) {
 		padding-top: 160px;
@@ -207,5 +191,33 @@
 			margin: 0 auto;
 			margin-top: 55px;
 		}
+	}
+}
+
+.advantage-line-1 {
+	position: absolute;
+	z-index: -1;
+	bottom: -58px;
+	left: 0;
+	@media screen and (max-width: $tablet) {
+		left: -700px;
+	}
+}
+.advantage-line-2 {
+	position: absolute;
+	z-index: -1;
+	bottom: -100px;
+	left: 0;
+	@media screen and (max-width: $tablet) {
+		left: -700px;
+	}
+}
+.advantage-line-3 {
+	position: absolute;
+	z-index: -1;
+	bottom: -74px;
+	left: 0;
+	@media screen and (max-width: $tablet) {
+		left: -700px;
 	}
 }
