@@ -8,19 +8,42 @@
 		flex-wrap: wrap;
 		justify-content: center;
 		gap: 17px;
-	}
 
+		@media screen and (max-width: $medium) {
+			flex-direction: column;
+			align-items: center;
+			gap: 10px;
+		}
+	}
+	&__left {
+		display: flex;
+		align-items: center;
+		gap: 10px;
+	}
 	&__wrap {
 		margin-left: auto;
 		display: flex;
-		flex-wrap: wrap;
-		justify-content: center;
-		gap: 17px 50px;
+		flex-direction: column;
+		gap: 5px;
+		@media screen and (max-width: $medium) {
+			margin-left: 0;
+		}
 	}
 
 	// .footer__mail
 
 	&__mail {
+	}
+
+	&__box {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 44px;
+		@media screen and (max-width: $medium) {
+			flex-direction: column;
+			align-items: center;
+			gap: 10px;
+		}
 	}
 
 	// .footer__politic
