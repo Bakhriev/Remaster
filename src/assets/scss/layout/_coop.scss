@@ -1,0 +1,146 @@
+.coop {
+	// .coop__container
+	padding-top: 80px;
+	@media screen and (max-width: $medium) {
+		padding-top: 140px;
+	}
+
+	&__container {
+	}
+
+	// .coop__title
+
+	&__title {
+		margin-bottom: 50px;
+		font-size: 50px;
+		text-align: center;
+		@media screen and (max-width: $medium) {
+			font-size: 30px;
+		}
+	}
+
+	// .coop__cards
+
+	&__cards {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		@media screen and (max-width: $medium) {
+			flex-direction: column;
+			gap: 72px;
+		}
+	}
+
+	// .coop__img
+
+	&__img {
+	}
+
+	// .coop__text
+
+	&__text {
+		margin-top: 30px;
+		max-width: 300px;
+
+		color: $text;
+		text-align: center;
+		font-family: Greenwich;
+		font-size: 19px;
+		font-weight: 400;
+		line-height: 131%;
+	}
+}
+
+.coop-card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+	// .coop-card__phone
+
+	&__phone {
+		position: absolute;
+	}
+
+	// .coop-card__phone-1
+
+	&__phone-1 {
+		position: absolute;
+		left: 65px;
+		top: 89px;
+		@media screen and (max-width: $medium) {
+			left: -25px;
+			top: 80px;
+		}
+	}
+
+	// .coop-card__phone-2
+
+	&__phone-2 {
+		position: absolute;
+		right: -43px;
+		top: 51px;
+		@media screen and (max-width: $medium) {
+			top: 42px;
+			right: -38px;
+		}
+	}
+
+	// .coop-card__phone-3
+
+	&__phone-3 {
+		position: absolute;
+		right: -130px;
+		top: 89px;
+		@media screen and (max-width: $medium) {
+			display: none;
+		}
+	}
+
+	// .coop-card__phone-right-1
+
+	&__phone-right-1 {
+		position: absolute;
+		left: -3px;
+		top: 116px;
+		@media screen and (max-width: $medium) {
+			left: 8px;
+			top: 124px;
+		}
+	}
+
+	// .coop-card__phone-right-2
+
+	&__phone-right-2 {
+		position: absolute;
+		right: 156px;
+		top: 116px;
+		@media screen and (max-width: $medium) {
+			display: none;
+		}
+	}
+
+	// .coop-card__phone-right-3
+
+	&__phone-right-3 {
+		position: absolute;
+		right: 66px;
+		top: 116px;
+		@media screen and (max-width: $medium) {
+			right: -17px;
+			top: 124px;
+		}
+	}
+}
+.coo-card-left {
+	padding-left: 85px;
+	@media screen and (max-width: $medium) {
+		padding-left: 0;
+	}
+}
+.coo-card-right {
+	padding-right: 157px;
+	@media screen and (max-width: $medium) {
+		padding-right: 0;
+	}
+}

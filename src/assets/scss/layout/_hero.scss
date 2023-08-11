@@ -120,6 +120,24 @@
 		right: 50px;
 		top: 75px;
 	}
+
+	// Company Page
+	&__small-1 {
+		position: absolute;
+		z-index: 2;
+		bottom: -11px;
+		left: 45px;
+		@media screen and (max-width: 540px) {
+			bottom: 113px;
+			left: -10px;
+		}
+	}
+	&__small-2 {
+		position: absolute;
+		z-index: 2;
+		top: 54px;
+		right: 64px;
+	}
 }
 
 .mail-icon {
@@ -233,4 +251,26 @@
 		// margin-bottom: 48px;
 		font-size: 45px;
 	}
+}
+
+.company-img {
+	// height: 400px !important;
+	// width: 400px !important;
+}
+
+.company-card {
+	bottom: -50px;
+}
+.company-text {
+	margin-top: 0;
+}
+.company-text-1 {
+	@media screen and (max-width: $medium) {
+		margin-top: 100px;
+		margin-bottom: 30px;
+	}
+}
+
+.company-mobile-title {
+	font-size: 40px;
 }

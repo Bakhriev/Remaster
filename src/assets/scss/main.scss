@@ -16,6 +16,7 @@
 // UI / Buttons
 @import '../../../ui/buttons/epic/epic-btn.scss';
 @import '../../../ui/buttons/shiny/shiny-btn.scss';
+@import '../../../ui/customCheckbox/checkbox.scss';
 
 // UI / DROPDOWN
 @import '../../../ui/dropdown/dropdown.scss';
@@ -32,5 +33,8 @@
 @import './layout/work';
 @import './layout/feedback';
 @import './layout/team';
+@import './layout/coop';
+@import './layout/mail';
+@import './layout/why';
 
 @import './layout/footer';
