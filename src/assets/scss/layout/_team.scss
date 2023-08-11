@@ -43,6 +43,8 @@
 	&__top {
 		position: relative;
 		margin-bottom: 48px;
+		width: 200px;
+		height: 200px;
 		@media screen and (max-width: $medium) {
 			margin-bottom: 58px;
 		}
@@ -60,8 +62,8 @@
 			&:last-child {
 				position: absolute;
 				z-index: -1;
-				top: -19px;
-				left: 0px;
+				top: -29px;
+				left: -13px;
 			}
 		}
 	}
