@@ -1,0 +1,16 @@
+.psy__small-2 {
+	top: 109px;
+	right: 16px;
+
+	@media screen and (max-width: $tablet) {
+		top: 3px;
+	}
+}
+
+.psy__small-1 {
+	bottom: 69px;
+	left: 77px;
+	@media screen and (max-width: $medium) {
+		bottom: 15px;
+	}
+}
