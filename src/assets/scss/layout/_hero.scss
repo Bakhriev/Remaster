@@ -51,7 +51,11 @@
 		@media screen and (max-width: $tablet) {
 			max-width: 90%;
 			font-size: 17px;
-			margin-top: 20px;
+			margin-top: 15px;
+			margin-bottom: 48px;
+		}
+		@media screen and (max-width: 450px){
+			margin-bottom: 22px;
 		}
 		color: $text;
 		font-family: Greenwich;
@@ -66,7 +70,7 @@
 		display: flex;
 		flex-wrap: wrap;
 		align-items: center;
-		gap: 23px;
+		gap: 15px;
 		@media screen and (max-width: $medium) {
 			margin: 0 auto;
 		}
@@ -136,8 +140,9 @@
 	}
 	@media screen and (max-width: $tablet) {
 		height: 400px;
-		width: 440px;
+		width: 520px;
 		object-fit: cover;
+		margin-top: 40px;
 	}
 }
 
@@ -157,8 +162,8 @@
 	right: 263px;
 
 	@media screen and (max-width: $tablet) {
-		top: 0;
-		right: 180px;
+		top: 35px;
+		right: 198px;
 	}
 
 	@media screen and (max-width: 450px) {
@@ -305,5 +310,7 @@
 	display: none;
 	@media screen and (max-width: $medium) {
 		display: block;
+		// margin-bottom: 48px;
+		font-size: 45px;
 	}
 }

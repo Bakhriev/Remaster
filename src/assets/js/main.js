@@ -55,3 +55,34 @@ const dropdownInit = () => {
 }
 
 dropdownInit()
+
+const swiper = new Swiper('.feedback-swiper', {
+	// If we need pagination
+	slidesPerView: 1,
+
+	pagination: {
+		el: '.feedback-swiper__pagination',
+	},
+
+	// Navigation arrows
+	navigation: {
+		nextEl: '.feedback-swiper__next',
+		prevEl: '.feedback-swiper__prev',
+	},
+
+	breakpoints: {
+		320: {
+			spaceBetween: 30,
+			slidesPerView: 1,
+			slidesPerGroup: 1,
+		},
+		800: {
+			slidesPerView: 2,
+			slidesPerGroup: 2,
+		},
+		1200: {
+			slidesPerView: 3,
+			slidesPerGroup: 3,
+		},
+	},
+})
