@@ -35,6 +35,16 @@
 	&__mail {
 	}
 
+	&__social {
+		svg {
+			fill: #969696;
+			@include trans(fill);
+			@include hover {
+				fill: #26a2e0;
+			}
+		}
+	}
+
 	&__box {
 		display: flex;
 		flex-wrap: wrap;
