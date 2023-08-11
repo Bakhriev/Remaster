@@ -1,5 +1,6 @@
 .coop {
 	// .coop__container
+	position: relative;
 	padding-top: 80px;
 	@media screen and (max-width: $medium) {
 		padding-top: 140px;
@@ -142,5 +143,21 @@
 	padding-right: 157px;
 	@media screen and (max-width: $medium) {
 		padding-right: 0;
+	}
+}
+
+.coop-1 {
+	position: absolute;
+	left: 0;
+	z-index: -1;
+	bottom: -200px;
+}
+.coop-2 {
+	position: absolute;
+	z-index: -1;
+	left: 0;
+	top: -111px;
+	@media screen and (max-width: $medium) {
+		top: 0;
 	}
 }

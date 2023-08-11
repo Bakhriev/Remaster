@@ -154,6 +154,7 @@
 
 .first {
 	position: absolute;
+	z-index: -1;
 	bottom: -10px;
 	left: 0;
 	@media screen and (max-width: $tablet) {
@@ -164,6 +165,7 @@
 
 .first-1 {
 	position: absolute;
+	z-index: -1;
 	top: -153px;
 	left: 0;
 	@media screen and (max-width: $medium) {
@@ -176,6 +178,7 @@
 
 .second {
 	position: absolute;
+	z-index: -1;
 	bottom: 15px;
 	left: 0;
 	@media screen and (max-width: $tablet) {
