@@ -3,6 +3,10 @@
 	// .work__container
 	padding-bottom: 162px;
 
+	@media screen and (max-width: $medium) {
+		padding-bottom: 92px;
+	}
+
 	&__container {
 		display: flex;
 		flex-direction: column;
