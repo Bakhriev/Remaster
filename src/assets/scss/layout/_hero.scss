@@ -54,7 +54,7 @@
 			margin-top: 15px;
 			margin-bottom: 48px;
 		}
-		@media screen and (max-width: 450px){
+		@media screen and (max-width: 450px) {
 			margin-bottom: 22px;
 		}
 		color: $text;
@@ -154,86 +154,6 @@
 	opacity: 0.8;
 	background: radial-gradient(50% 50% at 50% 50%, #66acff 0%, #66acff 100%);
 	filter: blur(99px);
-}
-
-.hero-form {
-	position: absolute;
-	top: 75px;
-	right: 263px;
-
-	@media screen and (max-width: $tablet) {
-		top: 35px;
-		right: 198px;
-	}
-
-	@media screen and (max-width: 450px) {
-		right: 100px;
-	}
-
-	display: flex;
-	flex-direction: column;
-	width: max-content;
-	z-index: 3;
-
-	// .hero-form__wrap
-
-	&__wrap {
-		position: relative;
-		z-index: 1;
-		width: max-content;
-	}
-
-	// .hero-form__field
-
-	&__field {
-		padding-left: 17px;
-		width: 246px;
-		height: 42px;
-		border: none;
-		outline: none;
-		background-color: transparent;
-		line-height: 0;
-		&::placeholder {
-			color: #fff;
-		}
-
-		border-radius: 10px;
-		background: #66acff;
-		box-shadow: 0px 4px 10px 5px rgba(0, 0, 0, 0.04);
-
-		color: #fff;
-		font-family: Greenwich;
-		font-size: 15px;
-		font-weight: 400;
-		line-height: 22px;
-	}
-
-	// .hero-form__search
-
-	&__search {
-		position: absolute;
-		top: 50%;
-		right: 15px;
-		transform: translateY(-50%);
-	}
-
-	// .hero-form__text
-
-	&__text {
-		width: 235px;
-		height: 68px;
-		border-radius: 10px;
-		background: #fff;
-		padding-top: 16px;
-		padding-left: 12px;
-		transform: translate(10px, -10px);
-
-		color: $text;
-		font-family: Greenwich;
-		font-size: 15px;
-		font-weight: 400;
-		line-height: 22px;
-	}
 }
 
 .hero-card {

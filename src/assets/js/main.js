@@ -86,3 +86,25 @@ const swiper = new Swiper('.feedback-swiper', {
 		},
 	},
 })
+
+const swiper1 = new Swiper('.team-swiper', {
+	slidesPerView: 5,
+
+	// Navigation arrows
+	navigation: {
+		nextEl: '.team-swiper__next',
+		prevEl: '.team-swiper__prev',
+	},
+
+	breakpoints: {
+		320: {
+			slidesPerView: 1,
+		},
+		768: {
+			slidesPerView: 3,
+		},
+		1200: {
+			slidesPerView: 5,
+		},
+	},
+})

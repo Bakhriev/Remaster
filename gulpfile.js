@@ -258,6 +258,7 @@ const preview = series(serve)
 function watchFiles() {
 	watch([path.src.html], html)
 	watch([srcPath + 'assets/**/*.html'], html)
+	watch(['ui'], css)
 	watch([path.src.css], css)
 	watch([path.src.js], js)
 	watch([path.src.img], img)

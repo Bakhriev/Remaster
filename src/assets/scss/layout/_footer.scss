@@ -1,0 +1,35 @@
+.footer {
+	padding-bottom: 34px;
+	// .footer__container
+
+	&__container {
+		display: flex;
+		align-items: center;
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 17px;
+	}
+
+	&__wrap {
+		margin-left: auto;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 17px 50px;
+	}
+
+	// .footer__mail
+
+	&__mail {
+	}
+
+	// .footer__politic
+
+	&__politic {
+		color: $text;
+		text-align: center;
+		font-family: Greenwich;
+		font-size: 17px;
+		font-weight: 400;
+	}
+}
