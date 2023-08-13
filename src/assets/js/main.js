@@ -87,6 +87,8 @@ const swiper = new Swiper('.feedback-swiper', {
 	},
 })
 
+
+
 const swiper1 = new Swiper('.team-swiper', {
 	slidesPerView: 5,
 
@@ -108,3 +110,5 @@ const swiper1 = new Swiper('.team-swiper', {
 		},
 	},
 })
+
+
