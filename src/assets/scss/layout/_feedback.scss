@@ -70,9 +70,15 @@
 				z-index: 1;
 				top: -55px;
 				left: -42px;
+				width: 123px;
+				height: 123px;
+				border-radius: 50%;
+				object-fit: cover;
 				@media screen and (max-width: 449px) {
 					top: -98px;
 					left: 34px;
+					width: 100px;
+					height: 100px;
 				}
 			}
 			&:last-child {
@@ -80,7 +86,7 @@
 				top: -82px;
 				left: -56px;
 				@media screen and (max-width: 449px) {
-					top: -102px;
+					top: -109px;
 					left: 31px;
 				}
 			}
