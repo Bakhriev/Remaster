@@ -54,29 +54,19 @@
 		display: grid;
 		place-items: center;
 	}
-	&__item-left {
-		// &::before {
-		// 	content: '';
-		// 	position: absolute;
-		// 	z-index: -1;
-		// 	width: 400px;
-		// 	height: 400px;
-		// 	@include center;
-		// 	border-radius: 50%;
-		// 	opacity: 0.8;
-		// 	background: #66acff;
-
-		// 	filter: blur(98px);
-		// }
-	}
 
 	&__item-center {
 		position: relative;
 		margin-top: 140px;
 		@media screen and (max-width: $medium) {
 			margin-top: 0;
+			order: 2;
 		}
 		max-width: 200px;
+		@media screen and (max-width: $medium) {
+			max-width: 700px;
+		}
+
 		width: 100%;
 		display: flex;
 		flex-direction: column;
@@ -114,19 +104,6 @@
 		@media screen and (max-width: $medium) {
 			margin-top: 0;
 		}
-		// &::before {
-		// 	content: '';
-		// 	position: absolute;
-		// 	z-index: -1;
-		// 	width: 400px;
-		// 	height: 400px;
-		// 	@include center;
-		// 	border-radius: 50%;
-		// 	opacity: 0.8;
-		// 	background: #e8d3bf;
-
-		// 	filter: blur(98px);
-		// }
 	}
 	&__item-text {
 		max-width: 230px;
